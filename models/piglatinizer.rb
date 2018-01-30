@@ -5,7 +5,6 @@ class PigLatinizer
     vowels = ['a', 'e', 'i', 'o', 'u']
     result = []
 
-    # word.each_char.with_index do |char, i|
     translation = ''
     qu = false
 
@@ -43,7 +42,6 @@ class PigLatinizer
         translation = word[count..word.length] + translation + 'ay'
         result.push(translation)
       end
-      # end
 
     end
     result.join(' ')
