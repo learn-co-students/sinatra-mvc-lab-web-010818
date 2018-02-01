@@ -13,7 +13,6 @@ class PigLatinizer
   end
 
   def piglatinize(word)
-
     ending = ''
     vowels = 'aeiou'
     if vowels.include?(word[0].downcase)
